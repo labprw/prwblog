@@ -1,0 +1,9 @@
+<div class="alignleft">
+  <% if (config.author){ %>
+  &copy; <%= new Date().getFullYear() %> <%= config.author %></br>
+  地址： 江苏省南京市金银街15号南京大学唐仲英楼
+  <% } else { %>
+  &copy; <%= new Date().getFullYear() %> <%= config.title %>
+  <% } %>
+</div>
+<div class="clearfix"></div>
